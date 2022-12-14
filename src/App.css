@@ -121,3 +121,9 @@ body {
 .marg {
   margin-top: 60px;
 }
+
+.img {
+  display: flex;
+  margin: 20px;
+  height: 30px;
+}

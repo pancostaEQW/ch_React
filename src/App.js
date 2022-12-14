@@ -93,7 +93,7 @@ function App() {
   console.log(selectedChannels)
   return (
     <div className="wrapper">
-      <h1 className="header">Выберете каналы из списка</h1>
+      <h1 className="header">Выберите каналы из списка</h1>
       <div className="Auto-form" >
       <h1 className="header marg">Вам подойдут тарифы</h1>
       <Autocomplete
@@ -108,7 +108,7 @@ function App() {
         renderOption={(props, id) => (
           <li {...props}> 
             {channels[id].name}
-            <img style={{ width: 20 }} src={channels[id].icon} />
+            <img className="img" src={channels[id].icon} />
           </li>
         )}
         renderInput={(params) => <TextField {...params}/>}
